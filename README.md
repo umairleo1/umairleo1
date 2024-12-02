@@ -96,7 +96,7 @@ Here are a few projects I’ve worked on:
 
 ## 📞 Contact Me
 - 📧 Email: [umair.leo17@gmail.com](mailto:umair.leo17@gmail.com)
-- 🌐 LinkedIn: [Muhammad Umair](https://www.linkedin.com/in/muhammad-umair)
+- 🌐 LinkedIn: [Muhammad Umair](https://www.linkedin.com/in/muhammad-umair-amin/)
 - 💻 GitHub: [umairleo1](https://github.com/umairleo1)
 - 📍 Location: London, United Kingdom
 
