@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22&v=2" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B7280,50:9CA3AF,100:D1D5DB&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22&v=3" />
 
 <br />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-1F2937?style=for-the-badge&logo=firefox&logoColor=white&labelColor=000000)](https://umairleo1.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-6B7280?style=for-the-badge&logo=firefox&logoColor=white&labelColor=000000)](https://umairleo1.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/muhammad-umair-amin/)
 [![Email](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:umair.leo17@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-374151?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/umairleo1)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-9CA3AF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/umairleo1)
 
-![Profile Views](https://komarev.com/ghpvc/?username=umairleo1&color=1F2937&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/umairleo1?logo=github&style=for-the-badge&color=4B5563&labelColor=000000&label=FOLLOWERS)
+![Profile Views](https://komarev.com/ghpvc/?username=umairleo1&color=6B7280&style=for-the-badge&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/umairleo1?logo=github&style=for-the-badge&color=9CA3AF&labelColor=000000&label=FOLLOWERS)
 
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=1F2937&center=true&vCenter=true&width=900&height=80&lines=const+developer+%3D+%7B+name%3A+'Muhammad+Umair'%7D%3B;crafting()%20%3D%3E%20seamless+high-performance+mobile+experiences;building()%20%3D%3E%20scalable+solutions+that+make+meaningful+impact;transform(ideas)+%3D%3E+powerful+digital+solutions;" alt="Coding Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=6B7280&center=true&vCenter=true&width=900&height=80&lines=const+developer+%3D+%7B+name%3A+'Muhammad+Umair'%7D%3B;crafting()%20%3D%3E%20seamless+high-performance+mobile+experiences;building()%20%3D%3E%20scalable+solutions+that+make+meaningful+impact;transform(ideas)+%3D%3E+powerful+digital+solutions;" alt="Coding Animation" />
 
 </div>
 
@@ -26,9 +26,9 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50"> About Me
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
 <tr>
-<td width="65%">
+<td width="70%" style="vertical-align: top;">
 
 ```javascript
 const aboutMe = {
@@ -50,9 +50,9 @@ $ npm list --depth=0
 ```
 
 </td>
-<td width="35%" align="center">
+<td width="30%" align="center" style="vertical-align: top;">
 
-<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="250" style="max-width: 100%; height: auto;">
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="200" style="max-width: 100%; height: auto;">
 
 </td>
 </tr>
@@ -68,7 +68,7 @@ $ npm list --depth=0
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="50"> Tech Arsenal
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=3000&pause=500&color=374151&center=true&vCenter=true&width=900&lines=import+%7B+JavaScript%2C+TypeScript%2C+ReactNative+%7D+from+'mySkills';+export+%7B+solutions+%7D;" alt="Code Import" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=3000&pause=500&color=9CA3AF&center=true&vCenter=true&width=900&lines=import+%7B+JavaScript%2C+TypeScript%2C+ReactNative+%7D+from+'mySkills';+export+%7B+solutions+%7D;" alt="Code Import" />
 
 </div>
 
@@ -223,7 +223,7 @@ describe('Code Quality', () => {
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Featured Projects
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=14&duration=2500&pause=500&color=4B5563&center=true&vCenter=true&width=700&lines=git+clone+https%3A%2F%2Fgithub.com%2Fumairleo1%2Fawesome-projects.git;cd+awesome-projects+%26%26+npm+install;npm+run+deploy+--production" alt="Git Commands" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=14&duration=2500&pause=500&color=9CA3AF&center=true&vCenter=true&width=700&lines=git+clone+https%3A%2F%2Fgithub.com%2Fumairleo1%2Fawesome-projects.git;cd+awesome-projects+%26%26+npm+install;npm+run+deploy+--production" alt="Git Commands" />
 
 </div>
 
@@ -235,7 +235,7 @@ describe('Code Quality', () => {
 <tr>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=1F2937&height=60&section=header&text=BioMark%20Healthcare&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=6B7280&height=60&section=header&text=BioMark%20Healthcare&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **Comprehensive Healthcare Application with Predictive Analytics**
 
@@ -264,7 +264,7 @@ const BioMark = {
 </td>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=374151&height=60&section=header&text=Desert%20Sign%20Trading&fontSize=26&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=9CA3AF&height=60&section=header&text=Desert%20Sign%20Trading&fontSize=26&fontColor=FFFFFF&animation=twinkling" />
 
 **Dual Mobile Applications for Seamless Advertising & Printing Services**
 
@@ -291,7 +291,7 @@ class DesertSign:
 <tr>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=1F2937&height=60&section=header&text=Vincere%20Health&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=6B7280&height=60&section=header&text=Vincere%20Health&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **Innovative Tobacco Cessation Health Application**
 
@@ -319,7 +319,7 @@ const app: VincereHealth = {
 </td>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=374151&height=60&section=header&text=London%20Riders&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=9CA3AF&height=60&section=header&text=London%20Riders&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **PCO Car Hire and Rental Platform with Advanced Geolocation**
 
@@ -396,17 +396,17 @@ $ git log --oneline --graph --all
 <table>
 <tr>
 <td align="center" width="50%">
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=umairleo1&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=1F2937&title_color=F9FAFB&text_color=E5E7EB&icon_color=4B5563&border_color=374151&border_radius=10"/>
+<img height="200em" src="https://github-readme-stats.vercel.app/api?username=umairleo1&show_icons=true&theme=default&include_all_commits=true&count_private=true&bg_color=F9FAFB&title_color=374151&text_color=6B7280&icon_color=9CA3AF&border_color=D1D5DB&border_radius=10"/>
 </td>
 <td align="center" width="50%">
-<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umairleo1&layout=compact&langs_count=8&theme=dark&bg_color=1F2937&title_color=F9FAFB&text_color=E5E7EB&border_color=374151&border_radius=10"/>
+<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umairleo1&layout=compact&langs_count=8&theme=default&bg_color=F9FAFB&title_color=374151&text_color=6B7280&border_color=D1D5DB&border_radius=10"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=umairleo1&theme=dark&background=1F2937&stroke=4B5563&ring=374151&fire=F9FAFB&currStreakNum=F9FAFB&sideNums=F9FAFB&currStreakLabel=6B7280&sideLabels=6B7280&dates=9CA3AF&border=374151" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=umairleo1&theme=default&background=F9FAFB&stroke=9CA3AF&ring=6B7280&fire=374151&currStreakNum=374151&sideNums=374151&currStreakLabel=6B7280&sideLabels=6B7280&dates=9CA3AF&border=D1D5DB" alt="GitHub Streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=umairleo1&custom_title=Contribution%20Activity&bg_color=1F2937&color=F9FAFB&line=4B5563&point=E5E7EB&area_color=374151&area=true&hide_border=false&border_color=4B5563" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=umairleo1&custom_title=Contribution%20Activity&bg_color=F9FAFB&color=374151&line=9CA3AF&point=6B7280&area_color=E5E7EB&area=true&hide_border=false&border_color=D1D5DB" width="100%"/>
 
 </div>
 
@@ -442,7 +442,7 @@ console.log(`${developer.location} → Building worldwide solutions`);
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50"> Let's Build Something Amazing Together
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=1F2937&center=true&vCenter=true&width=900&height=60&lines=while(coding)+%7B+createSolutions()%3B+%7D;if(idea+%3D%3D%3D+amazing)+%7B+letsCollaborate()%3B+%7D;return+%22Open+for+innovative+projects%22%3B;console.log(%22Let's+transform+ideas+→+reality%22)%3B" alt="Terminal Code" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=6B7280&center=true&vCenter=true&width=900&height=60&lines=while(coding)+%7B+createSolutions()%3B+%7D;if(idea+%3D%3D%3D+amazing)+%7B+letsCollaborate()%3B+%7D;return+%22Open+for+innovative+projects%22%3B;console.log(%22Let's+transform+ideas+→+reality%22)%3B" alt="Terminal Code" />
 
 ```bash
 # Connect with me
@@ -456,7 +456,7 @@ $ npm start --mode=innovation
 # → Email: umair.leo17@gmail.com
 ```
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-1F2937?style=for-the-badge&logo=firefox&logoColor=white)](https://umairleo1.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-6B7280?style=for-the-badge&logo=firefox&logoColor=white)](https://umairleo1.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umair-amin/)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umair.leo17@gmail.com)
 
@@ -466,4 +466,4 @@ $ npm start --mode=innovation
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=150&section=footer&animation=fadeIn&v=2" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B7280,50:9CA3AF,100:D1D5DB&height=150&section=footer&animation=fadeIn&v=3" />
