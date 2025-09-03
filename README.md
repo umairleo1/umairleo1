@@ -1,105 +1,172 @@
-# 👋 Hello!  
+# 👨‍💻 Muhammad Umair Amin
 
-I'm a **Mobile Software Engineer** with a knack for crafting seamless, high-performance mobile experiences using **React Native**, **JavaScript**, and **TypeScript**. My passion lies in bridging innovative technology with user-centric design to deliver apps that not only function flawlessly but also delight users.  
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://umairleo1.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umair-amin/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umairleo1)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umair.leo17@gmail.com)
 
-With a proven track record of solving complex problems and creating scalable solutions, I thrive on building impactful applications that make a difference in users' lives. Whether it’s optimizing performance, integrating cutting-edge features, or leading projects from concept to completion, I bring energy and expertise to every challenge.
+## 🚀 Data Integrations Developer | UNICEF UK
+
+**Transforming data into actionable insights** • **Building scalable systems that impact millions** • **MS Data Science Graduate**
+
+> *Currently architecting data pipelines at UNICEF UK, processing 5M+ daily records with 99.8% accuracy to support humanitarian initiatives across 5+ countries.*
 
 ---
 
-## 🛠️ Skills & Abilities
+## 🛠️ **Technical Expertise**
 
-### **Programming Languages**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-
-### **Mobile App Development**
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white)
+### **Core Programming Languages**
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ### **Frontend Development**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![Redux-Saga](https://img.shields.io/badge/Redux_Saga-999999?style=flat&logo=redux-saga&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-1C1E24?style=for-the-badge&logo=expo&logoColor=white)
 
-### **Backend Development**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+### **Backend & Architecture**
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
-### **Testing**
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-![React Testing Library](https://img.shields.io/badge/React_Testing_Library-00DC82?style=flat&logo=testing-library&logoColor=black)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit&logoColor=white)
+### **Cloud Platforms & DevOps**
+![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white)
 
-### **CI/CD**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat&logo=circleci&logoColor=white)
-![AWS CodeBuild](https://img.shields.io/badge/AWS_CodeBuild-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![App Center](https://img.shields.io/badge/App_Center-000000?style=flat&logo=appcenter&logoColor=white)
+### **Databases & Caching**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-### **Cloud Platforms**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0084FF?style=flat&logo=microsoft-azure&logoColor=white)
+### **Testing & Quality Assurance**
+![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
-### **Authentication & DevOps**
-![OAuth](https://img.shields.io/badge/OAuth-000000?style=flat&logo=oauth&logoColor=white)
-![SSO](https://img.shields.io/badge/SSO-5E3B8E?style=flat&logo=single-sign-on&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-
----
-
-## 📸 Showcase
-
-Here are a few projects I’ve worked on:
-
-- **[BioMark](https://apps.apple.com/my/app/hive-by-biomark/id1420019224)**  
-  MERN Stack, AWS, JavaScript, CI/CD  
-  Led the development of a comprehensive healthcare application, integrating predictive analytics and real-time health tracking to provide personalized health insights. Automated CI/CD pipelines using App Center, reducing deployment time and improving code quality.
-
-- **[Desert Sign Trading LLC](https://desertsign.com/)**  
-  MERN Stack, AWS, Twilio  
-  Designed and developed dual mobile applications for a seamless advertising and printing service experience. Integrated Twilio’s communication services to streamline interactions between customers and the company, improving service responsiveness.
-
-- **[Vincere Health](https://apps.apple.com/us/app/vincere-health/id1529110962)**  
-  MERN Stack, AWS, JavaScript  
-  Built an innovative health app focusing on tobacco cessation. Used AWS for backend infrastructure and implemented advanced JavaScript solutions for real-time data processing.
-
-- **[London Riders (PCO car hire and rent)](https://londonriders.co.uk/)**  
-  MERN Stack, AWS, Geolocation  
-  Developed a car rental and hire platform with geolocation services for efficient navigation and real-time car tracking. Implemented a seamless booking system, optimizing the rental process.
+### **AI & Productivity Tools**
+![Claude](https://img.shields.io/badge/Claude-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
-## 🏆 Certifications & Awards
+## 💼 **Professional Experience**
 
-- **[Advanced Learning Algorithms](https://www.coursera.org/account/accomplishments/verify/9D28SBBURTP2)** – Coursera  
-- **[Developer of the Month Award](https://www.linkedin.com/in/muhammad-umair-amin/overlay/1635528018078/single-media-viewer/?profileId=ACoAAC-ghtIBhaYoSa5zDF_ykitju_V8yLBxolc)** – SprintX (September 2022)  
-- **[Team of the Month Award](https://www.linkedin.com/in/muhammad-umair-amin/overlay/1635528016820/single-media-viewer/?profileId=ACoAAC-ghtIBhaYoSa5zDF_ykitju_V8yLBxolc)** – SprintX (October 2022)
+### 🌟 **Data Integrations Developer** | UNICEF UK
+*Feb 2025 - Present • London, United Kingdom*
+- 🚀 **Designed scalable data pipelines** using Python and Kafka, processing **5M+ daily records** with **99.8% accuracy**
+- ⚡ **Streamlined ETL processes** with AWS Lambda and EventBridge, reducing manual intervention by **80%**
+- 🌍 **Collaborated with stakeholders** across **5+ countries** to standardize data integration protocols
+
+### 🔬 **Software Developer** | University of Greenwich  
+*Jul 2023 - Sep 2023 • London, United Kingdom*
+- 🤖 **Developed ML algorithms** for **1M+ record datasets** using Python and TensorFlow, improving performance by **45%**
+- 🔄 **Engineered Python ETL pipelines** with Apache Airflow, processing **100GB+ weekly** with **99.5% uptime**
+
+### 💻 **Software Engineer** | SprintX
+*Jan 2022 - Dec 2022 • Lahore, Pakistan*
+- 📱 **Led BioMark app migration** from Ionic to React Native with microservices architecture, reducing release overhead by **40%** for **300,000+ users**
+- 🔧 **Set up CI/CD** with Codemagic, developed responsive interfaces with React.js, Next.js, and GraphQL APIs
+- ☁️ **Built optimized backend services** with Node.js, AWS Lambda, and GCP Compute Engine
+- 🧪 **Implemented comprehensive testing** with Jest/Vitest and React Testing Library, increasing coverage from **0% to 55%**
+
+### 🚀 **Software Engineer** | Frizhub
+*Jan 2020 - Dec 2021 • Lahore, Pakistan*
+- 📲 **Built React Native apps** with Redux/Context API serving **50,000+ users** with **4.8/5 App Store rating**
+- ⚡ **Optimized performance** with GraphQL APIs achieving **35% faster loads**, **60% fewer crashes**, **25% better retention**
+- 🔄 **Led React Native migration** from native development, reducing cross-platform development time by **50%**
+- 🛡️ **Integrated Sentry** for error tracking and crash reporting, reducing production issues by **45%**
 
 ---
 
-## 🌱 Interests & Languages
+## 🎓 **Education**
 
-**Interests**  
-- Sustainable Technology, AI Applications, eSports, Traveling
+### **Master of Science in Data Science**
+**University of Greenwich** • *London, United Kingdom* • *Jan 2023 - Jan 2024*
 
-**Languages**  
-- English (Fluent), Chinese (HSK 1), Urdu, Punjabi
-
----
-
-## 📞 Contact Me
-- 📧 Email: [umair.leo17@gmail.com](mailto:umair.leo17@gmail.com)
-- 🌐 LinkedIn: [Muhammad Umair](https://www.linkedin.com/in/muhammad-umair-amin/)
-- 💻 GitHub: [umairleo1](https://github.com/umairleo1)
-- 📍 Location: London, United Kingdom
+### **Bachelor of Science in Computer Science** 
+**University of Management and Technology** • *Lahore, Pakistan* • *Sep 2016 - Sep 2020*
 
 ---
 
-> *"Coding is not just about writing code, it's about creating solutions that make life easier and better for users."*
+## 🏆 **Key Achievements & Metrics**
+
+```
+📊 5M+ daily records processed with 99.8% accuracy
+🚀 40% reduction in release overhead for 300K+ users
+⚡ 99.5% uptime on data processing pipelines
+📱 4.8/5 App Store rating for mobile applications
+🧪 55% test coverage improvement from ground zero
+🌍 Data integration across 5+ countries
+```
+
+---
+
+## 🌟 **Featured Projects & Impact**
+
+### **🏥 BioMark Healthcare Platform**
+*React Native • Microservices • AWS • 300K+ Users*
+- Led complete architectural migration improving user experience and reducing deployment overhead
+- Implemented robust CI/CD pipelines and comprehensive testing strategies
+
+### **🎯 Enterprise Data Integration System**
+*Python • Apache Kafka • AWS Lambda • 5M+ Daily Records*
+- Architected scalable data pipelines for international humanitarian operations
+- Achieved industry-leading accuracy rates in mission-critical data processing
+
+### **📊 ML-Powered Analytics Platform**
+*Python • TensorFlow • Apache Airflow • 1M+ Records*
+- Developed advanced machine learning algorithms for large-scale data analysis
+- Delivered 45% performance improvements through optimization techniques
+
+---
+
+## 📜 **Certifications**
+
+[![Advanced Learning Algorithms](https://img.shields.io/badge/Advanced_Learning_Algorithms-Coursera-0056D2?style=for-the-badge&logo=coursera&logoColor=white)](https://www.coursera.org/account/accomplishments/verify/9D28SBBURTP2)
+
+### **🏅 Professional Recognition**
+- 🥇 **Developer of the Month** - SprintX (September 2022)
+- 🏆 **Team of the Month Award** - SprintX (October 2022)
+
+---
+
+## 🌍 **Languages & Global Perspective**
+
+**Languages:** English (Fluent) • Chinese (HSK 1) • Urdu (Native) • Punjabi (Native)
+
+**Interests:** Sustainable Technology • AI Applications • Data Science • International Development
+
+---
+
+## 📬 **Let's Connect**
+
+> *"Building scalable solutions that transform data into meaningful impact for organizations worldwide"*
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-FF5722?style=for-the-badge)](https://umairleo1.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge)](https://www.linkedin.com/in/muhammad-umair-amin/)
+[![Email](https://img.shields.io/badge/📧_Email-Contact-D14836?style=for-the-badge)](mailto:umair.leo17@gmail.com)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-Follow-100000?style=for-the-badge)](https://github.com/umairleo1)
+
+**📍 Location:** London, United Kingdom
+
+---
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=umairleo1&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=umairleo1&theme=radical" alt="GitHub Streak" />
+</div>
+
+---
+
+⭐ **If you find my work interesting, please consider starring my repositories!**
