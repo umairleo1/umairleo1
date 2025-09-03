@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22&v=2" />
 
 <br />
 
@@ -466,4 +466,4 @@ $ npm start --mode=innovation
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=150&section=footer&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F2937,50:374151,100:4B5563&height=150&section=footer&animation=fadeIn&v=2" />
