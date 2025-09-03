@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E1477E,50:FFBC78,100:4FACFE&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22" />
 
 <br />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-FF6B35?style=for-the-badge&logo=firefox&logoColor=white&labelColor=000000)](https://umairleo1.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-667eea?style=for-the-badge&logo=firefox&logoColor=white&labelColor=000000)](https://umairleo1.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/muhammad-umair-amin/)
 [![Email](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:umair.leo17@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/umairleo1)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-764ba2?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/umairleo1)
 
-![Profile Views](https://komarev.com/ghpvc/?username=umairleo1&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
-![GitHub followers](https://img.shields.io/github/followers/umairleo1?logo=github&style=for-the-badge&color=ff69b4&labelColor=000000&label=FOLLOWERS)
+![Profile Views](https://komarev.com/ghpvc/?username=umairleo1&color=667eea&style=for-the-badge&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/umairleo1?logo=github&style=for-the-badge&color=f093fb&labelColor=000000&label=FOLLOWERS)
 
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=FF6B35&center=true&vCenter=true&width=900&height=80&lines=Crafting+seamless+high-performance+mobile+experiences;Building+scalable+solutions+that+make+meaningful+impact;Passionate+about+innovative+technology+and+user-centric+design;Transforming+ideas+into+powerful+digital+solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=667eea&center=true&vCenter=true&width=900&height=80&lines=Crafting+seamless+high-performance+mobile+experiences;Building+scalable+solutions+that+make+meaningful+impact;Passionate+about+innovative+technology+and+user-centric+design;Transforming+ideas+into+powerful+digital+solutions" alt="Typing SVG" />
 
 </div>
 
@@ -74,7 +74,7 @@ London, United Kingdom
 ### **Programming Languages**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 </td>
@@ -156,7 +156,7 @@ London, United Kingdom
 <tr>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=50&section=header&text=BioMark%20Healthcare&fontSize=22&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6&height=60&section=header&text=BioMark%20Healthcare&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **Comprehensive Healthcare Application with Predictive Analytics**
 
@@ -173,7 +173,7 @@ London, United Kingdom
 </td>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=50&section=header&text=Desert%20Sign%20Trading&fontSize=20&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=60&section=header&text=Desert%20Sign%20Trading&fontSize=26&fontColor=FFFFFF&animation=twinkling" />
 
 **Dual Mobile Applications for Seamless Advertising & Printing Services**
 
@@ -192,7 +192,7 @@ London, United Kingdom
 <tr>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=50&section=header&text=Vincere%20Health&fontSize=22&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=60&section=header&text=Vincere%20Health&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **Innovative Tobacco Cessation Health Application**
 
@@ -209,7 +209,7 @@ London, United Kingdom
 </td>
 <td width="50%">
 
-### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=30&height=50&section=header&text=London%20Riders&fontSize=22&fontColor=FFFFFF&animation=twinkling" />
+### <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=30&height=60&section=header&text=London%20Riders&fontSize=28&fontColor=FFFFFF&animation=twinkling" />
 
 **PCO Car Hire and Rental Platform with Advanced Geolocation**
 
@@ -255,17 +255,17 @@ London, United Kingdom
 <table>
 <tr>
 <td align="center">
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=umairleo1&show_icons=true&theme=radical&include_all_commits=true&count_private=true&bg_color=0,FF6B35,4FACFE&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF"/>
+<img height="200em" src="https://github-readme-stats.vercel.app/api?username=umairleo1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=0,667eea,764ba2&title_color=FFFFFF&text_color=FFFFFF&icon_color=f093fb&border_color=764ba2"/>
 </td>
 <td align="center">
-<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umairleo1&layout=compact&langs_count=8&theme=radical&bg_color=0,4FACFE,FF6B35&title_color=FFFFFF&text_color=FFFFFF"/>
+<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umairleo1&layout=compact&langs_count=8&theme=tokyonight&bg_color=0,764ba2,f093fb&title_color=FFFFFF&text_color=FFFFFF&border_color=667eea"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=umairleo1&theme=radical&background=45,FF6B35,4FACFE&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=umairleo1&theme=tokyonight&background=667eea&stroke=f093fb&ring=764ba2&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&border=764ba2" alt="GitHub Streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=umairleo1&custom_title=Contribution%20Activity&bg_color=FF6B35&color=FFFFFF&line=4FACFE&point=FFFFFF&area_color=4FACFE&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=umairleo1&custom_title=Contribution%20Activity&bg_color=667eea&color=FFFFFF&line=f093fb&point=FFFFFF&area_color=764ba2&area=true&hide_border=false&border_color=f093fb" width="100%"/>
 
 </div>
 
@@ -291,9 +291,9 @@ London, United Kingdom
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50"> Let's Build Something Amazing Together
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=900&height=60&lines=Coding+is+not+just+about+writing+code;It's+about+creating+solutions+that+make+life+better;Open+for+collaborations+and+innovative+ideas;Let's+transform+ideas+into+digital+reality!" alt="Closing message" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=667eea&center=true&vCenter=true&width=900&height=60&lines=Coding+is+not+just+about+writing+code;It's+about+creating+solutions+that+make+life+better;Open+for+collaborations+and+innovative+ideas;Let's+transform+ideas+into+digital+reality!" alt="Closing message" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://umairleo1.github.io/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-667eea?style=for-the-badge&logo=firefox&logoColor=white)](https://umairleo1.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-umair-amin/)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:umair.leo17@gmail.com)
 
@@ -303,4 +303,4 @@ London, United Kingdom
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,50:FFBC78,100:4FACFE&height=150&section=footer&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=150&section=footer&animation=fadeIn" />
