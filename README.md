@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B7280,50:9CA3AF,100:D1D5DB&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Mobile%20Software%20Engineer%20|%20Full-Stack%20Developer%20|%20Tech%20Innovator&descAlignY=60&descSize=22&v=3" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6B7280,50:9CA3AF,100:D1D5DB&height=280&section=header&text=Muhammad%20Umair&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20AI%20Software%20Engineer%20|%20Tech%20Innovator&descAlignY=60&descSize=22&v=3" />
 
 <br />
 
