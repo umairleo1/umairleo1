@@ -28,7 +28,6 @@ Full-stack software engineer in the UK. I build production web apps with **React
 | [nutrient-predictor](https://github.com/umairleo1/nutrient-predictor-frontend) · [live](https://umairleo1.github.io/nutrient-predictor-frontend/) | Personalised nutrition recommendations: [front end](https://github.com/umairleo1/nutrient-predictor-frontend), [API](https://github.com/umairleo1/nutrient-predictor-backend), [model](https://github.com/umairleo1/nutrient-predictor-model-development) | TypeScript, Python, ML |
 | [currency-analysis](https://github.com/umairleo1/currency-analysis) · [live](https://umairleo1-currency-analysis-app-l0fbth.streamlit.app/) | Exchange-rate analysis and visualisation app | Python, Streamlit |
 | [subscription-tracker-backend](https://github.com/umairleo1/subscription-tracker-backend) | Subscription tracking API with multi-account authentication | Python, Docker |
-| [DMU-Task](https://github.com/umairleo1/DMU-Task) | Utility Trade Commission dashboard | Python, JavaScript |
 | [portfolio](https://github.com/umairleo1/portfolio) · [live](https://umairleo1.github.io/portfolio/) | My personal site | TypeScript, React |
 
 ### Tools I use day to day
