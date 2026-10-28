@@ -22,10 +22,14 @@ Rebuilding a legacy ASP.NET MVC research database as a React 19 + TypeScript SPA
 
 Ask questions across your company's documents and get answers with citations. It's a multi-tenant SaaS, designed, built and operated solo, from database schema to deploy pipeline. (Source is private; happy to walk through it.)
 
+<p align="right"><a href="assets/docnus-architecture-light.png"><b>⤢ View full size</b></a></p>
+
+<a href="assets/docnus-architecture-light.png">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/docnus-architecture-dark.png">
   <img alt="Docnus architecture: a Celery worker runs OCR, embeddings and entity extraction into Pinecone, Postgres BM25 and a knowledge graph; questions go through hybrid search with RRF and Cohere rerank, escalating to an agentic Claude tool loop when scores are low, before Claude writes a cited answer." src="assets/docnus-architecture-light.png" width="100%">
 </picture>
+</a>
 
 **Engineering decisions I'm proud of**
 - **Hybrid retrieval:** Pinecone vectors and Postgres BM25 merged by reciprocal-rank fusion, then reranked, so exact names and IDs aren't lost to semantic search.
