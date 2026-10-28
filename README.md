@@ -24,20 +24,45 @@ Ask questions across your company's documents and get answers with citations. It
 
 ```mermaid
 flowchart LR
-  U[Upload<br/>PDF · DOCX · scans] --> W[Celery worker<br/>Docling OCR + chunking]
-  W --> E[Embeddings] --> P[(Pinecone)]
-  W --> G[Entity extraction<br/>+ resolution] --> KG[(Knowledge graph<br/>Leiden communities)]
-  W --> PG[(Postgres<br/>BM25 full-text)]
-  Q[Question] --> H{Hybrid retrieval<br/>dense + BM25 · RRF}
-  P --> H
+  subgraph ING["Ingestion · Celery worker"]
+    B["Upload → Docling OCR<br/>PDF · DOCX · scans"] --> C["Embeddings"]
+    B --> D["Entity extraction<br/>+ resolution"]
+  end
+  subgraph STORE["Storage"]
+    PG[("Postgres<br/>BM25")]
+    P[("Pinecone<br/>vectors")]
+    KG[("Knowledge<br/>graph")]
+  end
+  subgraph ASK["Answering"]
+    Q(["Question"]) --> H["Hybrid search<br/>RRF + Cohere rerank"]
+    H -- confident --> L["Claude<br/>cited answer"]
+    H -- low score --> T["Agentic loop<br/>Claude calls search tools"]
+    T --> L
+  end
+  B --> PG
+  C --> P
+  D --> KG
   PG --> H
-  H --> R[Rerank] --> C[Claude<br/>cited answer]
-  KG --> C
+  P --> H
+  KG -. graph context .-> L
+
+  classDef step fill:#e0e7ff,stroke:#4f46e5,stroke-width:1.5px,color:#1e1b4b
+  classDef store fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#451a03
+  classDef ai fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#052e16
+  classDef out fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#ffffff
+  class B,C,D,Q,H step
+  class P,PG,KG store
+  class T ai
+  class L out
+  style ING fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
+  style STORE fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
+  style ASK fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
 ```
 
 **Engineering decisions I'm proud of**
 - **Hybrid retrieval:** Pinecone vectors and Postgres BM25 merged by reciprocal-rank fusion, then reranked, so exact names and IDs aren't lost to semantic search.
 - **Evaluation harness:** every tuned threshold is justified against a labelled golden set (94% recall, 0.69 nDCG@10). CI scores recorded runs against a committed baseline and fails on regression.
+- **Agentic escalation:** confident questions take a single fast path; when retrieval scores low, Claude takes over and calls search tools itself, with role-aware tool access and an iteration cap.
 - **Isolated ingestion:** OCR runs in its own Celery worker container, so heavy documents never block the API and the worker scales independently.
 - **Safe deploys:** each image is built once and promoted to production by immutable digest, never by a mutable tag, and main can't deploy on a red build.
 - **Production basics done properly:** RBAC and per-plan quotas, Stripe billing with idempotent webhooks and event redrive, TOTP MFA for admins, PII detection and GDPR erasure, Prometheus and Sentry.
