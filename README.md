@@ -22,42 +22,10 @@ Rebuilding a legacy ASP.NET MVC research database as a React 19 + TypeScript SPA
 
 Ask questions across your company's documents and get answers with citations. It's a multi-tenant SaaS, designed, built and operated solo, from database schema to deploy pipeline. (Source is private; happy to walk through it.)
 
-```mermaid
-flowchart LR
-  subgraph ING["Ingestion · Celery worker"]
-    B["Upload → Docling OCR<br/>PDF · DOCX · scans"] --> C["Embeddings"]
-    B --> D["Entity extraction<br/>+ resolution"]
-  end
-  subgraph STORE["Storage"]
-    PG[("Postgres<br/>BM25")]
-    P[("Pinecone<br/>vectors")]
-    KG[("Knowledge<br/>graph")]
-  end
-  subgraph ASK["Answering"]
-    Q(["Question"]) --> H["Hybrid search<br/>RRF + Cohere rerank"]
-    H -- confident --> L["Claude<br/>cited answer"]
-    H -- low score --> T["Agentic loop<br/>Claude calls search tools"]
-    T --> L
-  end
-  B --> PG
-  C --> P
-  D --> KG
-  PG --> H
-  P --> H
-  KG -. graph context .-> L
-
-  classDef step fill:#e0e7ff,stroke:#4f46e5,stroke-width:1.5px,color:#1e1b4b
-  classDef store fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#451a03
-  classDef ai fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#052e16
-  classDef out fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#ffffff
-  class B,C,D,Q,H step
-  class P,PG,KG store
-  class T ai
-  class L out
-  style ING fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-  style STORE fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-  style ASK fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/docnus-architecture-dark.png">
+  <img alt="Docnus architecture: a Celery worker runs OCR, embeddings and entity extraction into Pinecone, Postgres BM25 and a knowledge graph; questions go through hybrid search with RRF and Cohere rerank, escalating to an agentic Claude tool loop when scores are low, before Claude writes a cited answer." src="assets/docnus-architecture-light.png" width="100%">
+</picture>
 
 **Engineering decisions I'm proud of**
 - **Hybrid retrieval:** Pinecone vectors and Postgres BM25 merged by reciprocal-rank fusion, then reranked, so exact names and IDs aren't lost to semantic search.
