@@ -22,42 +22,10 @@ Rebuilding a legacy ASP.NET MVC research database as a React 19 + TypeScript SPA
 
 Ask questions across your company's documents and get answers with citations. It's a multi-tenant SaaS, designed, built and operated solo, from database schema to deploy pipeline. (Source is private; happy to walk through it.)
 
-```mermaid
-flowchart LR
-  subgraph ING["Ingestion · Celery worker"]
-    B["Upload → Docling OCR<br/>PDF · DOCX · scans"] --> C["Embeddings"]
-    B --> D["Entity extraction<br/>+ resolution"]
-  end
-  subgraph STORE["Storage"]
-    PG[("Postgres<br/>BM25")]
-    P[("Pinecone<br/>vectors")]
-    KG[("Knowledge<br/>graph")]
-  end
-  subgraph ASK["Answering"]
-    Q(["Question"]) --> H["Hybrid search<br/>RRF + Cohere rerank"]
-    H -- confident --> L["Claude<br/>cited answer"]
-    H -- low score --> T["Agentic loop<br/>Claude calls search tools"]
-    T --> L
-  end
-  B --> PG
-  C --> P
-  D --> KG
-  PG --> H
-  P --> H
-  KG -. graph context .-> L
-
-  classDef step fill:#e0e7ff,stroke:#4f46e5,stroke-width:1.5px,color:#1e1b4b
-  classDef store fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#451a03
-  classDef ai fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#052e16
-  classDef out fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#ffffff
-  class B,C,D,Q,H step
-  class P,PG,KG store
-  class T ai
-  class L out
-  style ING fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-  style STORE fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-  style ASK fill:transparent,stroke:#94a3b8,stroke-dasharray:4 4
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/docnus-architecture-dark.png">
+  <img alt="Docnus system architecture: React SPA on Vercel calls a FastAPI service (auth, tenant isolation, 107 endpoints, hybrid retrieval with agentic escalation) backed by Celery workers, PostgreSQL with PgBouncer, Redis, Pinecone and MinIO, calling Anthropic Claude, OpenAI embeddings and Cohere rerank; shipped by digest-pinned CD with health-gated auto-rollback." src="assets/docnus-architecture-light.png" width="100%">
+</picture>
 
 **Engineering decisions I'm proud of**
 - **Hybrid retrieval:** Pinecone vectors and Postgres BM25 merged by reciprocal-rank fusion, then reranked, so exact names and IDs aren't lost to semantic search.
@@ -67,7 +35,7 @@ flowchart LR
 - **Safe deploys:** each image is built once and promoted to production by immutable digest, never by a mutable tag, and main can't deploy on a red build.
 - **Production basics done properly:** RBAC and per-plan quotas, Stripe billing with idempotent webhooks and event redrive, TOTP MFA for admins, PII detection and GDPR erasure, Prometheus and Sentry.
 
-**Stack:** FastAPI · SQLAlchemy 2 (async) · PostgreSQL · Redis · Celery · Pinecone · OpenAI + Anthropic · React 19 · Redux Toolkit · Vite · Tailwind · Playwright · Docker · GitHub Actions
+**Stack:** FastAPI · SQLAlchemy 2 (async) · PostgreSQL · Redis · Celery · Pinecone · OpenAI + Anthropic · React 19 · Redux Toolkit · Vite · Tailwind · PgBouncer · Docker · GitHub Actions
 
 ## Selected open source
 
@@ -94,7 +62,7 @@ flowchart LR
 **Front end** React · TanStack Query · Redux Toolkit · Vite · Tailwind · shadcn/ui  
 **Back end** FastAPI · SQLAlchemy · PostgreSQL · Redis · Celery  
 **AI / data** RAG · Pinecone · OpenAI and Anthropic APIs · XGBoost · pandas  
-**Cloud and delivery** AWS (Lambda, Cognito, API Gateway, S3, CloudFront, CDK) · Docker · Terraform · GitHub Actions · Vitest · Jest · Playwright · pytest
+**Cloud and delivery** AWS (Lambda, Cognito, API Gateway, S3, CloudFront, CDK) · Docker · Terraform · GitHub Actions · Vitest · Jest · pytest
 
 ---
 
