@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docnus Architecture · Muhammad Umair</title>
+<meta name="description" content="System architecture of Docnus, a multi-tenant AI document intelligence platform designed and built by Muhammad Umair.">
+<style>
+  :root { --bg: #f6f8fa; --bar: rgba(255,255,255,.86); --ink: #0f172a; --ink-2: #57606a; --line: #d0d7de; --btn: #ffffff; --btn-h: #f3f4f6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #010409; --bar: rgba(13,17,23,.86); --ink: #e6edf3; --ink-2: #8b949e; --line: #30363d; --btn: #21262d; --btn-h: #30363d; }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; background: var(--bg); color: var(--ink); font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  header { position: fixed; inset: 0 0 auto 0; z-index: 2; display: flex; align-items: center; gap: 12px; padding: 10px 16px; background: var(--bar); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  header .title { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  header .hint { color: var(--ink-2); font-size: 13px; margin-left: auto; white-space: nowrap; }
+  .close { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--btn); color: var(--ink); font: 600 14px inherit; text-decoration: none; flex: none; }
+  .close:hover { background: var(--btn-h); }
+  .close svg { width: 16px; height: 16px; }
+  main { position: absolute; inset: 0; overflow: auto; padding: 72px 24px 24px; display: grid; place-items: center; }
+  main img { display: block; max-width: 100%; max-height: calc(100vh - 96px); width: auto; height: auto; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.12); cursor: zoom-in; }
+  main.zoomed { place-items: start; }
+  main.zoomed img { max-width: none; max-height: none; width: 2800px; cursor: zoom-out; }
+  @media (max-width: 640px) { header .hint { display: none; } main { padding: 64px 8px 8px; } }
+</style>
+</head>
+<body>
+<header>
+  <span class="title">Docnus · system architecture</span>
+  <span class="hint">Click the diagram to zoom · Esc to close</span>
+  <a class="close" href="https://github.com/umairleo1" aria-label="Close and return to profile">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Close
+  </a>
+</header>
+<main id="stage">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/docnus-architecture-dark.png">
+    <img id="diagram" src="../assets/docnus-architecture-light.png" alt="Docnus system architecture diagram">
+  </picture>
+</main>
+<script>
+  const stage = document.getElementById('stage');
+  const img = document.getElementById('diagram');
+  const close = () => {
+    if (history.length > 1 && document.referrer.includes('github.com')) history.back();
+    else location.href = 'https://github.com/umairleo1';
+  };
+  document.querySelector('.close').addEventListener('click', e => { e.preventDefault(); close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  img.addEventListener('click', e => {
+    const r = img.getBoundingClientRect();
+    const fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
+    stage.classList.toggle('zoomed');
+    if (stage.classList.contains('zoomed')) {
+      stage.scrollLeft = img.offsetWidth * fx - stage.clientWidth / 2;
+      stage.scrollTop = img.offsetHeight * fy - stage.clientHeight / 2 + 72;
+    }
+  });
+</script>
+</body>
+</html>
