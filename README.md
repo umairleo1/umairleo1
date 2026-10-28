@@ -22,10 +22,12 @@ Rebuilding a legacy ASP.NET MVC research database as a React 19 + TypeScript SPA
 
 Ask questions across your company's documents and get answers with citations. It's a multi-tenant SaaS, designed, built and operated solo, from database schema to deploy pipeline. (Source is private; happy to walk through it.)
 
+<a href="https://raw.githubusercontent.com/umairleo1/umairleo1/main/assets/docnus-architecture-light.png">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/docnus-architecture-dark.png">
   <img alt="Docnus system architecture: React SPA on Vercel calls a FastAPI service (auth, tenant isolation, 107 endpoints, hybrid retrieval with agentic escalation) backed by Celery workers, PostgreSQL with PgBouncer, Redis, Pinecone and MinIO, calling Anthropic Claude, OpenAI embeddings and Cohere rerank; shipped by digest-pinned CD with health-gated auto-rollback." src="assets/docnus-architecture-light.png" width="100%">
 </picture>
+</a>
 
 **Engineering decisions I'm proud of**
 - **Hybrid retrieval:** Pinecone vectors and Postgres BM25 merged by reciprocal-rank fusion, then reranked, so exact names and IDs aren't lost to semantic search.
